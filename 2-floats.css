@@ -1,0 +1,44 @@
+header, main, aside, footer {
+  position: float;
+  overflow: auto;
+  text-align: center;
+}
+
+main, aside {
+  top:10.2%;
+  height: 80%;
+
+}
+
+header, footer {
+  width: 100%;
+}
+
+header {
+  padding-top: 2%;
+  height: 10.2%;
+}
+
+main {
+  padding-top: 12%;
+  width: 80%;
+  text-align: unset;
+  float: left;
+}
+
+aside {
+  padding-top: 5%;
+  width: 20%;
+  float: right;
+  bottom: 100%;
+}
+
+footer {
+  padding-top: 2%;
+  top: 90.2%;
+  height: 9.8%;
+  position: fixed;
+  bottom: 0;
+  clear: both;
+}
+
